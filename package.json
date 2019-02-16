@@ -1,0 +1,43 @@
+{
+  "name": "opn-git",
+  "version": "1.0.2",
+  "description": "Type `opengit` to open GitHub remote url in your broswer.",
+  "author": {
+    "name": "ingf",
+    "email": "ingf.ivan@gmail.com",
+    "url": "https://github.com/ingf"
+  },
+  "homepage": "https://github.com/ingf/opn-git",
+  "bin": {
+    "opengit": "opengit.js",
+    "gitopen": "opengit.js"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "opengit.js"
+  ],
+  "keywords": [
+    "open",
+    "git",
+    "broswer",
+    "terminal",
+    "opengit",
+    "gitopen"
+  ],
+  "license": "ISC",
+  "xo": {
+    "space": true
+  },
+  "dependencies": {
+    "global": "^4.3.2",
+    "opn": "^5.4.0",
+    "opn-git": "^1.0.2"
+  },
+  "devDependencies": {
+    "ava": "^1.2.1",
+    "execa": "^1.0.0",
+    "xo": "^0.24.0"
+  }
+}
