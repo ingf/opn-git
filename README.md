@@ -1,4 +1,3 @@
-## opengit
 
 Type `opengit` to open GitHub/GitLab remote url in your broswer. Cross-platform.
 
