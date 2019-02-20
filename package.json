@@ -31,9 +31,7 @@
     "space": true
   },
   "dependencies": {
-    "global": "^4.3.2",
-    "opn": "^5.4.0",
-    "opn-git": "^1.0.2"
+    "opn": "^5.4.0"
   },
   "devDependencies": {
     "ava": "^1.2.1",
